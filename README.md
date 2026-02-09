@@ -1,17 +1,21 @@
 # Lab 3 Submission - Samuel Harvey
 
-## Documentation
-Please refer to **"Lab 3 Test Cases and TCI By Step - Samuel Harvey.pdf"** for the logical breakdown of my test cases:
+Hello!
 
-1.  **Equivalence Partitions**
-2.  **Boundary Value Analysis**
-3.  **Decision Table (Refined)**
-4.  **Final Consolidated Test Suite** (Efficient Coverage)
-5.  **CSV File Format**
+In this repo you will find **"Lab 3 Test Cases and TCI By Step - Samuel Harvey.pdf"**, which should help show my logic step-by-step with how I came up with my test cases:
 
-## Implementation of Tests
-I utilized the provided `ReserveMyPark.java`. I reinstated the `NightReservationException` and added a new `InvalidAgeException` to catch negative age inputs.
+* **Page 1:** My Step 1, using Equivalence Partitions.
+* **Page 2:** My test cases for a Two-Point Boundary Value Analysis.
+* **Page 3:** My Decision Table Analysis (in a format that mirrors how we did it in class, but with the illogical rules removed).
+* **Page 4:** My final Test Case Table with the covered rules from each step. This demonstrates a complete coverage of tests while remaining efficient.
+* **Page 5:** The format of the `.csv` file I used for my test class, using the parameterized method shown in class.
 
-The testing logic is split into two parts:
-* **Standard Logic:** Driven by a `.csv` parameterized test.
-* **Exception Handling:** Specific tests for invalid nights and ages are implemented as separate test methods within `ReserveMyParkTest.java`.
+### Implementation Details
+
+I utilized the `ReserveMyPark.java` that was provided by Professor Baarsch.
+
+In that class, he uses a `com.baarsch_bytes.Exceptions.NightReservationException` that I have reinstated, along with an additional invalid seeking test that looks for negative age values called `InvalidAgeException`.
+
+*Note: These invalid result tests had to be implemented separately from the `.csv` implementation of the remaining test cases. That was done in my test file.*
+
+Thank you for your time!
